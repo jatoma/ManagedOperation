@@ -9,7 +9,7 @@
 import UIKit
 
 
-extension NSOperationQueue {
+public extension NSOperationQueue {
     
     public typealias completionClosure = () -> ()
     
