@@ -1,5 +1,19 @@
 # ManagedOperation
 `ManagedOperation` is implementation of a `NSOperation` to abstract and deal with asynchronous tasks.
+### Instalation
+Cocoapods
+
+`pod "ManagedOperation"`
+
+Import in Objective-C
+```objective-c
+#import <ManagedOperation/ManagedOperation-Swift.h>
+```
+
+Import in Swift
+```swift
+import ManagedOperation
+```
 
 Let's assume you have a time-consuming task that you'd rather perform on a background-thread.  
 **ManagedOperation** provides you with two options for wrapping  task in an asynchronous `NSOperation`:
