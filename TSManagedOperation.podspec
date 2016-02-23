@@ -6,7 +6,7 @@ s.name = "TSManagedOperation"
 s.summary = "An NSOperation for easy async block operations"
 s.requires_arc = true
 
-s.version = "0.3.0"
+s.version = "0.4.0"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
