@@ -2,11 +2,11 @@ Pod::Spec.new do |s|
 
 s.platform = :ios
 s.ios.deployment_target = '8.0'
-s.name = "TSManagedOperation"
+s.name = "ManagedOperation"
 s.summary = "An NSOperation for easy async block operations"
 s.requires_arc = true
 
-s.version = "0.4.0"
+s.version = "0.5.0"
 
 s.license = { :type => "MIT", :file => "LICENSE" }
 
